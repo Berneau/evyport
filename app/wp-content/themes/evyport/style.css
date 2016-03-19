@@ -1,6 +1,41 @@
 /*@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);*/
 
+/*
+turquoise: rgb(63, 184, 175)
+dark-grey: rgb(77, 77, 77)
+*/
+
+html, body, section {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   /*font-family: 'Open Sans', sans-serif;*/
   font-size: 24px;
+}
+
+section {
+  min-height: 100vh;
+  position: relative;
+}
+
+section:nth-last-of-type(2) {
+  background-color: rgb(77, 77, 77);
+}
+
+.line {
+  width: 100%;
+  position: absolute;
+}
+
+.line-bottom {
+  bottom: 0px;
+}
+
+.line-top {
+  top: 0px;
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
