@@ -20,8 +20,22 @@ section {
   position: relative;
 }
 
-section:nth-last-of-type(2) {
+section:nth-of-type(2) {
   background-color: rgb(77, 77, 77);
+}
+
+.logo {
+  margin-top: 10px;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.hexagon {
+  position: absolute;
+  width: inherit;
 }
 
 .line {
